@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+            body{
+background-color: rgb(163, 147, 93);
+            }
+            .accueil-tof{
+                background-color: white;
+                padding: 80px;
+                
+            }
+            .accueil-tof h2{
+                color: #242424;
+                text-align: center;
+                margin-bottom: 80px;
+            }
+            .accueil-tof div {
+                display: flex;
+                flex-direction: row;
+                gap: 15px;
+                justify-content: center;
+                margin-bottom: 15px;
+            }
+            .accueil-introduction {
+                display: flex;
+                flex-direction: row;
+                max-width: 1000px;
+                align-items: center;
+                margin: auto;  
+            }
+            .accueil-introduction h1 {
+                margin-bottom: 15px;
+            }
+            
+            .accueil-introduction p {
+                margin-bottom: 30px;
+            }
+            
+            .accueil-introduction div {
+                padding-right: 80px;
+            }
+            .logo-img{
+    margin-left: 30px;
+    text-align: center;
+    width: 100px;
+}
+            @media screen and (max-width:996px){
+                .accueil-introduction {
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .accueil-introduction div {
+                    padding-right: 0;
+                    text-align: center;
+                    order: 2;
+                }
+
+                .accueil-introduction img {
+                    order: 1;
+                    margin-bottom: 20px;
+                    width: 100%;
+                }
+
+                .accueil-tof {
+                    padding: 20px;
+                }
+
+                .accueil-tof div {
+                    flex-direction: column;
+                }
+
+               
+
+                
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            
+                <img src="logo.jpg" alt="Logo 2SA" class="logo-img"></a>
+            <div>
+                <a href="index.html"></a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+         <section class="accueil-introduction">
+            <div>
+                <h1>Sen Services Administrative</h1>
+                <p>Vous avez besoin de vos papiers administratifs dans les plus brefs délais? <br>
+                <span>La 2SA est la solution! <br> </span>Sen Services Administrative a été spécialement conçue 
+                pour régler tous vos problèmes de déplacement vers la municipalité ainsi que l'obtention de vos papiers et 
+                tout cela sans emcombre.Vous pouvez y accéder d'ores et déjà en renseignant vos identifiants.
+                Si vous ne possédez pas encore de compte, veuillez vous inscrire. <br>C'est gratuit et pratique! 
+            </p>
+                </div>
+        </section>
+        <section class="accueil-tof">
+            <h2>Privilégiez la 2SA</h2>
+            <div>
+                <img src="img1.avif" alt="#">
+                <img src="img-2.avif" alt="#">
+                <img src="img-3.avif" alt="#">
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <img src="logo.jpg" alt="Logo 2SA" class="logo-img">
+        <div>
+                <a target="_blank" href="https://twitter.com/">
+                    <img src="logo-twitter.png" alt="Logo Twitter" style="width: 32px;">
+                </a>
+                <a target="_blank" href="https://www.instagram.com/">
+                    <img src="insta-logo.avif" alt="Logo Instagram" style="width: 32px;">
+                </a>
+        </div>
+    </footer>
+</body>
+</html>
